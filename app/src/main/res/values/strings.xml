@@ -4,4 +4,8 @@
     <string name="siCalculator">Simple Interest Calculator</string>
     <string name="noY">No of Years</string>
     <string name="rate">Rate of Interest</string>
+    <string name="si">Calculate Simple Interest</string>
+    <string name="ci">Calculate Compound Interest</string>
+    <string name="interest">Calculated Interest</string>
+
 </resources>

@@ -17,7 +17,7 @@
         android:layout_marginLeft="60dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
-        android:text="Simple Interest Calculator"
+        android:text="@string/siCalculator"
         android:textColor="@android:color/black"
         android:textColorLink="@android:color/black"
         android:textSize="28sp" />
@@ -33,7 +33,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="52dp"
-        android:text="Amount"
+        android:text="@string/amount"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:typeface="normal"
@@ -64,7 +64,7 @@
         android:layout_marginStart="-1dp"
         android:layout_marginLeft="19dp"
         android:layout_marginTop="105dp"
-        android:text="No of Years"
+        android:text="@string/noY"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:typeface="normal" />
@@ -95,7 +95,7 @@
         android:layout_marginBottom="-16dp"
         android:layout_toStartOf="@+id/etRate"
         android:layout_toLeftOf="@+id/etRate"
-        android:text="Rate of Interest"
+        android:text="@string/rate"
         android:textColor="@android:color/black"
         android:textSize="18sp" />
 
@@ -124,7 +124,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginBottom="-119dp"
-        android:text="Calculate Simple Interest" />
+        android:text="@string/si" />
 
     <Button
         android:id="@+id/btnCompoundInterest"
@@ -136,7 +136,7 @@
         android:layout_marginTop="80dp"
         android:layout_toEndOf="@+id/btnSimpleInterest"
         android:layout_toRightOf="@+id/btnSimpleInterest"
-        android:text="Calculate Compound Interest" />
+        android:text="@string/ci" />
 
     <EditText
         android:id="@+id/etInterest"
@@ -171,7 +171,7 @@
         android:layout_marginEnd="125dp"
         android:layout_marginRight="125dp"
         android:layout_marginBottom="7dp"
-        android:text="Calculated Interest" />
+        android:text="@string/interest" />
 
 
 </RelativeLayout>
