@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InterestCalculator</string>
+    <string name="amount">Amount</string>
+    <string name="siCalculator">Simple Interest Calculator</string>
+    <string name="noY">No of Years</string>
+    <string name="rate">Rate of Interest</string>
+</resources>
