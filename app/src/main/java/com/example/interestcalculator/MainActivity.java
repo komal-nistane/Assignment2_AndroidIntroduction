@@ -24,15 +24,6 @@ public class MainActivity extends AppCompatActivity {
         initComponents();
     }
 
-    private void calculateInterest(View view )
-    {
-        if (view.getId() == R.id.btnSimpleInterest) {
-            calculateSI();
-        } else if (view.getId() == R.id.btnCompoundInterest) {
-            calculateCI();
-        }
-    }
-
     private void calculateSI() {
         String amount = tfAmount.getText().toString();
         String year = tfYear.getText().toString();
@@ -69,8 +60,6 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private void initComponents() {
-//        RelativeLayout mainLayout = (RelativeLayout) findViewById(R.id.rl);
-//        View v = getLayoutInflater().inflate(R.layout.activity_main, mainLayout, false);
         tfAmount = (EditText) findViewById(R.id.etAmount);
         tfYear = (EditText) findViewById(R.id.etYears);
         tfInterest = (EditText) findViewById(R.id.etInterest);
@@ -79,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
         btnCompoundInterest = (Button)findViewById(R.id.btnCompoundInterest);
         btnSimpelInterest.setOnClickListener(listener);
         btnCompoundInterest.setOnClickListener(listener);
-//        calculateInterest(v);
     }
 
     private boolean validateEmptyFields(String amount, String year, String rate) {
@@ -101,4 +89,3 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 }
-
