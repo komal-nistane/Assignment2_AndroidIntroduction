@@ -27,8 +27,7 @@
         android:layout_alignLeft="@+id/years"
         android:text="@string/amount"
         android:textColor="@android:color/black"
-        android:textSize="12sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:layout_alignParentLeft="true"/>
 
     <EditText
@@ -39,46 +38,45 @@
         android:layout_toRightOf="@+id/amount"
         android:layout_alignTop="@+id/amount"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="55dp"
+        android:layout_marginLeft="49dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        />
 
     <TextView
         android:id="@+id/years"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/amount"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:layout_alignParentLeft="true"
         android:text="@string/noY"
         android:textColor="@android:color/black"
-        android:textSize="12sp"
         android:typeface="normal" />
 
     <EditText
 
-        android:nextFocusForward="@+id/etRate"
         android:id="@+id/etYears"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/years"
-        android:layout_alignParentRight="true"
-        android:layout_marginLeft="35dp"
         android:layout_below="@+id/etAmount"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/years"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:nextFocusForward="@+id/etRate" />
 
     <TextView
         android:id="@+id/rate"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
         android:layout_below="@+id/years"
-        android:layout_marginTop="25dp"
         android:layout_alignBottom="@+id/etRate"
+        android:layout_marginTop="50dp"
         android:text="@string/rate"
-        android:textColor="@android:color/black"
-        android:textSize="12sp"
-        />
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/etRate"
@@ -86,8 +84,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etYears"
         android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
         android:layout_toRightOf="@+id/rate"
-        android:layout_marginLeft="15dp"
+        android:layout_marginLeft="2dp"
         android:ems="10"
         android:imeOptions="actionDone"
         android:inputType="number" />
@@ -97,6 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/rate"
+        android:layout_marginTop="25dp"
 
         >
 
@@ -130,7 +130,9 @@
         android:layout_below="@id/linearLayout"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="120dp"
-        android:text="@string/interest" />
+        android:text="@string/interest"
+        android:textColor="@android:color/black"
+        />
 
 
     <EditText
